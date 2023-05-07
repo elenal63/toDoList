@@ -22,7 +22,6 @@ My main purpose in writing this program was to learn more about functional langu
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
 * Fix bugs of undefined
 * Learn more about scope of parameters
 * Fix case
