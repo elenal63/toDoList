@@ -6,9 +6,7 @@ In this program, I created an add task function that will ask the user for a des
 
 My main purpose in writing this program was to learn more about functional languages and to practice using Erlang. I also wanted to know how lists, records, and recursion work in Erlang. 
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.  Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/8nKVkCj4vJE)
 
 # Development Environment
 
