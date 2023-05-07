@@ -14,7 +14,7 @@ main() ->
 addTask() ->
     TaskList = [],
     io:format("Enter a task: "),
-    Des = io:get_line(""),
+    Des = io:get_line(""), %gets user input
     Task = #task{description = Des, completed = false},
     [Task | TaskList].
     % NewList = [Task | TaskList],  
@@ -24,6 +24,7 @@ addTask() ->
 completedTask(Task) ->
     Task#task{completed = true}.
 
+%this function will loop until the user is done adding/ completing tasks
 runList() ->
     io:format("Ready to start your To Do List for today!"),
     io:format("Would you like to add a task, mark a task as completed, or end program? ('add', 'complete', or 'end'): "),
@@ -31,7 +32,7 @@ runList() ->
     case string: strip(Input) of 
         "add" ->
             addTask(),
-            runList();
+            runList(); %example of recursion 
         "complete" ->
             completedTask(Task),
             runList();
